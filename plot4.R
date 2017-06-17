@@ -28,7 +28,7 @@ with({
   plot(x=df$DateTime,y=df$Sub_metering_1,type="l",ylab="Energy sub metering",xlab="")
   lines(x=df$DateTime,y=df$Sub_metering_2,col="red")
   lines(x=df$DateTime,y=df$Sub_metering_3,col="blue")
-  legend("topright", cex = 0.4, lty=1, bty="n", col = c("black","red","blue"), legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+  legend("topright", cex = 0.5, lty=1, bty="n", col = c("black","red","blue"), legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
   
   plot(df$DateTime, df$Global_reactive_power, type = "l", main = "",ylab="Global_reactive_power", xlab = "datetime")
   
